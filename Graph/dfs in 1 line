@@ -1,0 +1,1 @@
+auto dfs = [&](int x) {vis[x]=1; for(auto y: adj[x]) if(!vis[y]) dfs(y);}
